@@ -20,3 +20,5 @@ void precompute(){
 }
  
  // paste this and call precompute 
+
+// Things to remember always add MOD even if it is un-neccesary and add MOD if chance of getting negetive is present
