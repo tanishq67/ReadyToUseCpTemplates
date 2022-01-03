@@ -16,6 +16,7 @@ void precompute(){
     for(int i=2;i<N;i++){
         fact[i]=(fact[i-1]*i)%MOD;
         inv[i]=expo(fact[i],MOD-2,MOD);
+    }
 }
  
  // paste this and call precompute 
